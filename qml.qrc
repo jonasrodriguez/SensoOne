@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Dashboard.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/Styles.qml</file>
+        <file>qml/menu/NavigationBar.qml</file>
+        <file>qml/menu/ZoomBar.qml</file>
+        <file>qml/menu/ResultsBar.qml</file>
+        <file>qml/menu/MainScreen.qml</file>
+        <file>qml/images/Zoom.png</file>
+        <file>qml/images/Navigation.png</file>
+        <file>qml/images/Brand.png</file>
+    </qresource>
+</RCC>
