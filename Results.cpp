@@ -1,5 +1,8 @@
 #include "Results.h"
 
+#include <stdlib.h>
+
+#include <QDebug>
 #include <QQmlEngine>
 
 Results *Results::this_ = nullptr;
@@ -42,9 +45,10 @@ QVariant Results::data(const QModelIndex &index, int role) const {
   return QVariant();
 }
 
-void Results::AddNewResult() {
+void Results::addNewResult() {
+  int newResult = rand() % 3 + 1;
   int current_index = static_cast<int>(results_.size());
   beginInsertRows(QModelIndex(), current_index, current_index);
-  results_.push_back("Holi");
+  results_.push_back(std::to_string(newResult));
   endInsertRows();
 }

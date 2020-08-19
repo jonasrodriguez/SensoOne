@@ -1,5 +1,6 @@
 import QtQuick 2.0
 import "../styles"
+import com.test.Stonks 1.0
 
 Rectangle {
     color: Styles.backgroundColor
@@ -37,7 +38,7 @@ Rectangle {
             width: (parent.width / 3) * 0.99
 
             textValue: "ACCEPT"
-            onClicked: console.log(textValue)
+            onClicked: Results.addNewResult()
         }
         ButtonControl {
             height: parent.height * 0.8

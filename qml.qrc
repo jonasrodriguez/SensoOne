@@ -12,8 +12,9 @@
         <file>resources/styles/Styles.qml</file>
         <file>resources/screens/ButtonControl.qml</file>
         <file>resources/images/Stonks.jpg</file>
-        <file>resources/images/Results3.png</file>
-        <file>resources/images/Results2.png</file>
         <file>resources/images/Results1.png</file>
+        <file>resources/images/Results2.png</file>
+        <file>resources/images/Results3.png</file>
+        <file>resources/screens/ResultsDelegate.qml</file>
     </qresource>
 </RCC>

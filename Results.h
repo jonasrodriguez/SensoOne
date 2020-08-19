@@ -21,7 +21,7 @@ class Results : public QAbstractListModel {
   QHash<int, QByteArray> roleNames() const override;
 
  public slots:
-  void AddNewResult();
+  void addNewResult();
 
  private:
   explicit Results(QObject *parent = nullptr);

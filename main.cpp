@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
   const QUrl url(QStringLiteral("qrc:/resources/main.qml"));
   qmlRegisterSingletonType(QUrl("qrc:/resources/Styles.qml"), "styles", 1, 0,
                            "Styles");
-  qmlRegisterSingletonType<Results>("com.test.stonks", 1, 0, "Results",
+  qmlRegisterSingletonType<Results>("com.test.Stonks", 1, 0, "Results",
                                     &Results::qmlInstance);
   QObject::connect(
       &engine, &QQmlApplicationEngine::objectCreated, &app,
