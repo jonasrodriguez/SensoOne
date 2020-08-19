@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import "../"
+import "../styles"
 
 Rectangle {
     color: Styles.backgroundColor
@@ -11,6 +11,6 @@ Rectangle {
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
 
-        source: "qrc:/qml/images/Zoom.png"
+        source: "qrc:/resources/images/Thingy.png"
     }
 }
